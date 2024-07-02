@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: /Users/shakilrafi/goswami-research-proposal/latex/goswami-research-statement.aux
+The style file: naturemag.bst
+Database file #1: ../references/goswami-proposal.bib
+Repeated entry---line 552 of file ../references/goswami-proposal.bib
+ : @misc{noauthor_finngen_nodate
+ :                              ,
+I'm skipping whatever remains of this entry
+You've used 23 entries,
+            2348 wiz_defined-function locations,
+            1127 strings with 15456 characters,
+and the built_in function-call counts, 8700 in all, are:
+= -- 604
+> -- 226
+< -- 1
++ -- 114
+- -- 56
+* -- 1082
+:= -- 960
+add.period$ -- 88
+call.type$ -- 23
+change.case$ -- 31
+chr.to.int$ -- 0
+cite$ -- 23
+duplicate$ -- 790
+empty$ -- 798
+format.name$ -- 76
+if$ -- 1729
+int.to.chr$ -- 0
+int.to.str$ -- 23
+missing$ -- 186
+newline$ -- 142
+num.names$ -- 21
+pop$ -- 140
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 149
+stack$ -- 0
+substring$ -- 299
+swap$ -- 780
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 40
+width$ -- 25
+write$ -- 292
+(There was 1 error message)

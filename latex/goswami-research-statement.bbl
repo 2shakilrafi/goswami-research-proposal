@@ -1,0 +1,142 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{goswami_role_2021}
+\bibinfo{author}{Goswami, A.} \emph{et~al.}
+\newblock \bibinfo{title}{Role of {Microbes} in the {Pathogenesis} of {Neuropsychiatric} {Disorders}}.
+\newblock \emph{\bibinfo{journal}{Front Neuroendocrinol}} \textbf{\bibinfo{volume}{62}}, \bibinfo{pages}{100917} (\bibinfo{year}{2021}).
+\newblock \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8364482/}.
+
+\bibitem{hashimoto_emerging_2023}
+\bibinfo{author}{Hashimoto, K.}
+\newblock \bibinfo{title}{Emerging role of the host microbiome in neuropsychiatric disorders: overview and future directions}.
+\newblock \emph{\bibinfo{journal}{Mol Psychiatry}} \textbf{\bibinfo{volume}{28}}, \bibinfo{pages}{3625--3637} (\bibinfo{year}{2023}).
+
+\bibitem{bonnechere}
+\bibinfo{author}{Bonnechère, B.}, \bibinfo{author}{Amin, N.} \& \bibinfo{author}{van Duijn, C.}
+\newblock \bibinfo{title}{The role of gut microbiota in neuropsychiatric diseases – creation of an atlas-based on quantified evidence}.
+\newblock \emph{\bibinfo{journal}{Frontiers in Cellular and Infection Microbiology}} \textbf{\bibinfo{volume}{12}} (\bibinfo{year}{2022}).
+\newblock \urlprefix\url{https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2022.831666}.
+
+\bibitem{bull-larsen_potential_2019}
+\bibinfo{author}{Bull-Larsen, S.} \& \bibinfo{author}{Mohajeri, M.~H.}
+\newblock \bibinfo{title}{The {Potential} {Influence} of the {Bacterial} {Microbiome} on the {Development} and {Progression} of {ADHD}}.
+\newblock \emph{\bibinfo{journal}{Nutrients}} \textbf{\bibinfo{volume}{11}} (\bibinfo{year}{2019}).
+\newblock \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6893446/}.
+\newblock \bibinfo{note}{Publisher: Multidisciplinary Digital Publishing Institute (MDPI)}.
+
+\bibitem{TOMOVA2015179}
+\bibinfo{author}{Tomova, A.} \emph{et~al.}
+\newblock \bibinfo{title}{Gastrointestinal microbiota in children with autism in slovakia}.
+\newblock \emph{\bibinfo{journal}{Physiology \& Behavior}} \textbf{\bibinfo{volume}{138}}, \bibinfo{pages}{179--187} (\bibinfo{year}{2015}).
+\newblock \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0031938414005101}.
+
+\bibitem{yk_microbiota-gut-brain_2018}
+\bibinfo{author}{Yk, K.} \& \bibinfo{author}{C, S.}
+\newblock \bibinfo{title}{The {Microbiota}-{Gut}-{Brain} {Axis} in {Neuropsychiatric} {Disorders}: {Pathophysiological} {Mechanisms} and {Novel} {Treatments}}.
+\newblock \emph{\bibinfo{journal}{Current neuropharmacology}} \textbf{\bibinfo{volume}{16}} (\bibinfo{year}{2018}).
+\newblock \urlprefix\url{https://pubmed.ncbi.nlm.nih.gov/28925886/}.
+\newblock \bibinfo{note}{Publisher: Curr Neuropharmacol}.
+
+\bibitem{escobar_influence_2022}
+\bibinfo{author}{Escobar, Y.-N.~H.}, \bibinfo{author}{O'Piela, D.}, \bibinfo{author}{Wold, L.~E.} \& \bibinfo{author}{Mackos, A.~R.}
+\newblock \bibinfo{title}{Influence of the {Microbiota}-{Gut}-{Brain} {Axis} on {Cognition} in {Alzheimer}'s {Disease}}.
+\newblock \emph{\bibinfo{journal}{J Alzheimers Dis}} \textbf{\bibinfo{volume}{87}}, \bibinfo{pages}{17--31} (\bibinfo{year}{2022}).
+
+\bibitem{sorboni_comprehensive_2022}
+\bibinfo{author}{Sorboni, S.~G.}, \bibinfo{author}{Moghaddam, H.~S.}, \bibinfo{author}{Jafarzadeh-Esfehani, R.} \& \bibinfo{author}{Soleimanpour, S.}
+\newblock \bibinfo{title}{A {Comprehensive} {Review} on the {Role} of the {Gut} {Microbiome} in {Human} {Neurological} {Disorders}}.
+\newblock \emph{\bibinfo{journal}{Clin Microbiol Rev}} \textbf{\bibinfo{volume}{35}}, \bibinfo{pages}{e0033820} (\bibinfo{year}{2022}).
+
+\bibitem{tao_relationship_2024}
+\bibinfo{author}{Tao, K.}, \bibinfo{author}{Yuan, Y.}, \bibinfo{author}{Xie, Q.} \& \bibinfo{author}{Dong, Z.}
+\newblock \bibinfo{title}{Relationship between human oral microbiome dysbiosis and neuropsychiatric diseases: {An} updated overview}.
+\newblock \emph{\bibinfo{journal}{Behav Brain Res}} \textbf{\bibinfo{volume}{471}}, \bibinfo{pages}{115111} (\bibinfo{year}{2024}).
+
+\bibitem{bowland_oral-microbiome-brain_2022}
+\bibinfo{author}{Bowland, G.~B.} \& \bibinfo{author}{Weyrich, L.~S.}
+\newblock \bibinfo{title}{The {Oral}-{Microbiome}-{Brain} {Axis} and {Neuropsychiatric} {Disorders}: {An} {Anthropological} {Perspective}}.
+\newblock \emph{\bibinfo{journal}{Front Psychiatry}} \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{810008} (\bibinfo{year}{2022}).
+
+\bibitem{xi_coming_2024}
+\bibinfo{author}{Xi, Y.}, \bibinfo{author}{Yu, M.}, \bibinfo{author}{Li, X.}, \bibinfo{author}{Zeng, X.} \& \bibinfo{author}{Li, J.}
+\newblock \bibinfo{title}{The coming future: {The} role of the oral–microbiota–brain axis in aroma release and perception}.
+\newblock \emph{\bibinfo{journal}{Comprehensive Reviews in Food Science and Food Safety}} \textbf{\bibinfo{volume}{23}}, \bibinfo{pages}{e13303} (\bibinfo{year}{2024}).
+\newblock \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/1541-4337.13303}.
+\newblock \bibinfo{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/1541-4337.13303}.
+
+\bibitem{y_did_2020}
+\bibinfo{author}{Y, M.} \emph{et~al.}
+\newblock \bibinfo{title}{Did the {Brain} and {Oral} {Microbiota} {Talk} to {Each} {Other}? {A} {Review} of the {Literature}}.
+\newblock \emph{\bibinfo{journal}{Journal of clinical medicine}} \textbf{\bibinfo{volume}{9}} (\bibinfo{year}{2020}).
+\newblock \urlprefix\url{https://pubmed.ncbi.nlm.nih.gov/33260581/}.
+\newblock \bibinfo{note}{Publisher: J Clin Med}.
+
+\bibitem{homd}
+\bibinfo{author}{Chen, T.} \emph{et~al.}
+\newblock \bibinfo{title}{{The Human Oral Microbiome Database: a web accessible resource for investigating oral microbe taxonomic and genomic information}}.
+\newblock \emph{\bibinfo{journal}{Database}} \textbf{\bibinfo{volume}{2010}}, \bibinfo{pages}{baq013} (\bibinfo{year}{2010}).
+\newblock \urlprefix\url{https://doi.org/10.1093/database/baq013}.
+\newblock \eprint{https://academic.oup.com/database/article-pdf/doi/10.1093/database/baq013/1132285/baq013.pdf}.
+
+\bibitem{li_catalog_2023}
+\bibinfo{author}{Li, W.} \emph{et~al.}
+\newblock \bibinfo{title}{A catalog of bacterial reference genomes from cultivated human oral bacteria}.
+\newblock \emph{\bibinfo{journal}{npj Biofilms Microbiomes}} \textbf{\bibinfo{volume}{9}}, \bibinfo{pages}{1--13} (\bibinfo{year}{2023}).
+\newblock \urlprefix\url{https://www.nature.com/articles/s41522-023-00414-3}.
+\newblock \bibinfo{note}{Publisher: Nature Publishing Group}.
+
+\bibitem{noauthor_human_nodate}
+\bibinfo{title}{Human {Oral} {Microbiota} {Composition} {Data} from {UAE} {Healthy} {Future} {Study} ({UAEHFS}) {Pilot} {Participants}}.
+\newblock \urlprefix\url{https://datacatalog.med.nyu.edu/dataset/10404}.
+
+\bibitem{noauthor_finngen_nodate}
+\bibinfo{title}{{FinnGen}: an expedition into genomics and medicine {\textbar} {FinnGen}}.
+\newblock \urlprefix\url{https://www.finngen.fi/en}.
+
+\bibitem{wilmanski_blood_2019}
+\bibinfo{author}{Wilmanski, T.} \emph{et~al.}
+\newblock \bibinfo{title}{Blood metabolome predicts gut microbiome α-diversity in humans}.
+\newblock \emph{\bibinfo{journal}{Nat Biotechnol}} \textbf{\bibinfo{volume}{37}}, \bibinfo{pages}{1217--1228} (\bibinfo{year}{2019}).
+\newblock \urlprefix\url{https://www.nature.com/articles/s41587-019-0233-9}.
+\newblock \bibinfo{note}{Publisher: Nature Publishing Group}.
+
+\bibitem{li_genetic_2022}
+\bibinfo{author}{Li, C.} \emph{et~al.}
+\newblock \bibinfo{title}{A genetic association study reveals the relationship between the oral microbiome and anxiety and depression symptoms}.
+\newblock \emph{\bibinfo{journal}{Front Psychiatry}} \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{960756} (\bibinfo{year}{2022}).
+\newblock \urlprefix\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9685528/}.
+
+\bibitem{arik_tabnet_2021}
+\bibinfo{author}{Arik, S.~�.} \& \bibinfo{author}{Pfister, T.}
+\newblock \bibinfo{title}{{TabNet}: {Attentive} {Interpretable} {Tabular} {Learning}}.
+\newblock \emph{\bibinfo{journal}{AAAI}} \textbf{\bibinfo{volume}{35}}, \bibinfo{pages}{6679--6687} (\bibinfo{year}{2021}).
+\newblock \urlprefix\url{https://ojs.aaai.org/index.php/AAAI/article/view/16826}.
+
+\bibitem{vaswani_attention_2017}
+\bibinfo{author}{Vaswani, A.} \emph{et~al.}
+\newblock \bibinfo{title}{Attention is {All} you {Need}}.
+\newblock In \emph{\bibinfo{booktitle}{Advances in {Neural} {Information} {Processing} {Systems}}}, vol.~\bibinfo{volume}{30} (\bibinfo{publisher}{Curran Associates, Inc.}, \bibinfo{year}{2017}).
+\newblock \urlprefix\url{https://proceedings.neurips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html}.
+
+\bibitem{mcelfresh2023neural}
+\bibinfo{author}{McElfresh, D.} \emph{et~al.}
+\newblock \bibinfo{title}{When do neural nets outperform boosted trees on tabular data?} (\bibinfo{year}{2023}).
+\newblock \eprint{2305.02997}.
+
+\bibitem{hollmann2022tabpfn}
+\bibinfo{author}{Hollmann, N.}, \bibinfo{author}{Müller, S.}, \bibinfo{author}{Eggensperger, K.} \& \bibinfo{author}{Hutter, F.}
+\newblock \bibinfo{title}{Tabpfn: A transformer that solves small tabular classification problems in a second} (\bibinfo{year}{2022}).
+\newblock \eprint{2207.01848}.
+
+\bibitem{shi_performance_2022}
+\bibinfo{author}{Shi, Y.}, \bibinfo{author}{Zhang, L.}, \bibinfo{author}{Peterson, C.~B.}, \bibinfo{author}{Do, K.-A.} \& \bibinfo{author}{Jenq, R.~R.}
+\newblock \bibinfo{title}{Performance determinants of unsupervised clustering methods for microbiome data}.
+\newblock \emph{\bibinfo{journal}{Microbiome}} \textbf{\bibinfo{volume}{10}}, \bibinfo{pages}{25} (\bibinfo{year}{2022}).
+\newblock \urlprefix\url{https://doi.org/10.1186/s40168-021-01199-3}.
+
+\end{thebibliography}
