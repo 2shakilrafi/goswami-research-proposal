@@ -1,11 +1,13 @@
 \documentclass{article}
 \usepackage{multicol}
+\title{Investigating Microbiome's Role in Neuropsychiatric Disorders in Quest of Novel Therapeutics Using Computational Methods.}
 \begin{document}
+\maketitle
 \noindent
 \begin{multicols}{2}
 \section{Introduction}
 The role of human host microbiomes in neuropsychiatric diseases such as has been studied extensively in the literature, e.g. for reviews see \cite{goswami_role_2021}, \cite{hashimoto_emerging_2023}, and \cite{bonnechere}. Furthermore they have been implicated in a number of neuropsychiatric disorders, such as ADHD, in \cite{bull-larsen_potential_2019}, in increasing severity of autism spectrum disorders, ASD, in children in \cite{TOMOVA2015179}, in Alzheimer's Disease in the elderly, in \cite{yk_microbiota-gut-brain_2018} and \cite{escobar_influence_2022}
-\subsection{The gut microbiome}
+\subsection{The gut microbiome in contrast to the oral microbiome}
 Of the different microbiomes in the human body, (e.g. gut, oral, skin, vaginal), the gut microbiome is the most extensively studied in relation to neuropsychiatric disorders, see \cite{sorboni_comprehensive_2022}. It is not only the most studied but also the microbiome where modern machine learning techniques have been most frequently and fruitfully applied. 
 
 This leaves a research gap for other microbiomes of the human body. For instance both \cite{goswami_role_2021} and \cite{tao_relationship_2024} both note the dearth of literature with respect to the oral microbiome. 
@@ -15,15 +17,30 @@ We propose, therefore, to take some of the tools, especially machine learning to
 \begin{enumerate}
 	\item The oral microbiome is yet under-studied with the tools applied to other micribiomes, as noted earlier \cite{goswami_role_2021},\cite{tao_relationship_2024}.
 	\item An emerging argument exists for an oral-microbiome-brain axis, OMBA, similar to the gut-brain axis, \cite{bowland_oral-microbiome-brain_2022}, \cite{xi_coming_2024}, \cite{y_did_2020}. The consensus seems to be that this area still needs to be studied.
-	\item Large, robust, and mature dataset exists for the microbiomes, such as the Human Oral Microbiome Dataset, and extended Human Oral Microbiome Dataset\cite{homd}, Cultivated Oral Bacterial Genome Reference \cite{li_catalog_2023}, and even some smaller datasets such as the UAE Healthy Future Study participants of 330 Emirati citizens \cite{noauthor_human_nodate}, and less specialized datasets such as FinnGen, \cite{noauthor_finngen_nodate}.
+	\item Large, robust, and mature dataset exists for the microbiomes, such as the Human Oral Microbiome Dataset, and extended Human Oral Microbiome Dataset\cite{homd}, Cultivated Oral Bacterial Genome Reference \cite{li_catalog_2023}, and even some smaller datasets such as the U.A.E. Healthy Future Study participants of 330 Emirati citizens \cite{noauthor_human_nodate}, and less specialized datasets such as FinnGen, \cite{noauthor_finngen_nodate}.
 \end{enumerate}
 \section{Machine Learning Methods} 
 Our main source of inspiration will be methods already applied to the gut microbiome. 
-\subsection{Regression}
-Regression in its various forms have a long history of use with the gut microbiome, e.g. . 
-\subsection{Clustering}
+\subsection{Regression and Classification via \texttt{TabNet}}
+Regression in its various forms have a long history of use with predictions from microbiome, e.g. LASSO regression in using the blood microbiome to predict gut $\alpha$-diversity in \cite{wilmanski_blood_2019}. 
 
+Indeed logistic and linear regression models have also had some use in predicting autism spectrum disorders, ASD from the oral microbiome, \cite{li_genetic_2022}. 
+
+What the literature seems to lack is more sophisticated neural network regression and classification techniques like TabNet (introduced in \cite{arik_tabnet_2021}). Because genomic data is well-known to be large and yet quite sparse simpler regression methods may not be the best at this task. 
+
+TabNet was introduced to tackle just this kind of problem. It uses an attention-based mechanism using a transformer-based \cite{vaswani_attention_2017} architecture where-in the model learns from a sparse but wide tabular data, extracting the salient features of the dataset as it reads the along. 
+
+Attention based models have shown incredible promise in other areas of AI research such as Large Language Models (ChatGPT) and in computer vision with vision transformers and indeed continues to do so with tabular data. Indeed benchmarking with the Tabzilla Benchmarking Suite \cite{mcelfresh2023neural} shows that TabNet may out-perform traidional gradient-boosted decision trees in contexts where the dataset is extremely large with high dimensionality and where there is large sparseness in the tabular structure.
+
+These features make advanced attention based neural networks particularly appealing for genomic analysis. Combined with the fact that the literature is already thin in the case of the oral microbiome this presents a fertile area of research. 
+
+As an added bonus TabNet has a robust implementation in PyTorch not only as a regressor but also as a classifier, making it easy to laterally transfer it from regression to classification.
+
+The author therefore proposes using TabNet, and the related TabPFN \cite{hollmann2022tabpfn} for smaller datasets as a novel way of exploring the impact of the oral microbiome in neuropsychiatric disorders.
+\subsection{Clustering via Variational Autoencoders}
+In a similar vein to the previous section on regression and classification we note that microbiome research, especially gut microbiome research has had a long and fruitful use of clustering algorithms for research. 
 \section{Objective of Research}
+asdfdsf
 \textbf{Tentative Timeline}
 \end{multicols}
 \bibliographystyle{naturemag}
