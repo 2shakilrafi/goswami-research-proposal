@@ -56,24 +56,36 @@ Because genomic data often has very high dimensions there has been some promisin
  
  Regardless, a research gap still exists in genomic analysis of the oral microbiome using variational autoencoders. This gap is even more salient considering that software tools like DeepMicro \cite{oh_deepmicro_2020}, a suite of tools for the use of variational autoencoders for genomic analysis, already exist, dramatically reducing the software overhead for such an analysis.
  
- Finally, it must be noted that the exact mechanism by which the oral microbiome affects the brain is still up for debate. Several possible mechanisms have been suggested in \cite{tao_relationship_2024}. What is clear is that this mechanism could possibly be more ``direct'' in the sense that for the gut microbiome, any toxins released into the bloodstream must first be filtered by the liver before it reaches the brain whereas this is not the case for the oral microbiome \cite{tao_relationship_2024}. 
+ Finally, it must be noted that the exact mechanism by which the oral microbiome affects the brain is still up for debate. Several possible mechanisms have been suggested in \cite{tao_relationship_2024}, see Figure 2. What is clear is that this mechanism could possibly be more ``direct'' in the sense that for the gut microbiome, any toxins released into the bloodstream must first be filtered by the liver before it reaches the brain whereas this is not the case for the oral microbiome \cite{tao_relationship_2024}. 
  
- This, thus means that
+ This, thus means that we may expect to see stronger correlation between the presence and respective $\alpha$ and $\beta$ diversities of different microbiota and the expected predicted neuropsychiatric disorders however this is speculative, and more research on the part of the author is needed.
 \section{Objective of Research}
-asdfdsf
+The target of our research will be to see the impact wit
 \section{Tentative Timeline and Expected Contributions and Impact}
-The author proposed the following timeline for their post-doc assuming a two year period. Again, this is subject to change but mostly in the direction of needing less time. 
+
+\begin{figure*}[t]
+\begin{center}
+\includegraphics[width = 0.75\textwidth]{../figures/ml-workflow}
+\caption{Proposed workflow for ML pipelines in genomic analysis, taken from \cite{li_machine_2022}.}
+\end{center}
+\end{figure*}\label{mouth}
+
+The author proposed the following timeline for their post-doc assuming a two year period. The pipeline takes inspiration from the one proposed in \cite{li_machine_2022}, see Figure Again, this is subject to change but mostly in the direction of needing less time. 
 \begin{enumerate}[label = \roman*.]
-	\item Months 1-6:
-	\item Months 7-12:
-	\item Months 13-18:
-	\item Months 19-24:
+	\item Months 1-6: Explore the proposed datasets, dive deeper into the literature, and run pre-processing tasks including feature selection. This may include dimensionality reduction techniques like principal component analysis PCA, or singular value decomposition, SVM. The author also proposes to run models on a smaller subset of the data as trial runs.
+	\item Months 7-12: Construct large scale models from the datasets, taking inspiration from existing literature. Steps include parameter tuning, benchmarking, and cross-validation.). 
+	\item Months 13-18: Evaluate models using an appropriate metric such as RMSE, confusion matrix etc. At this stage, we may retune or reingineer features depending on the models predictive ability.
+	\item Months 19-24: Dissemenate the findings in the form of papers, posters, and talks given. 
 \end{enumerate}
+Note that this timeline envisions a handful of models which will trained, evaluated, and retrained again, aiming for enough results to yield at-least two papers as a target.
+
+We expect to see similar or even stronger correlations from the oral microbiome as we do with the gut microbiome, partly because of the absence of the liver mitigating whatever toxins are secreted by the oral microbiome into the bloodstream. Indeed, if it is seen that the same species in the oral microbiome is associated with the same neuropsychiatric disorder as its presence in the gut microbiome this bolsters the argument for the species as a causative agent in said neuropsychiatric disorder.
+
+
 \begin{figure*}[t]
 \includegraphics[width = \textwidth]{../figures/dysbiosis-oral-diagram.png}
-\label{mouth}
 \caption{Proposed mechanisms by which the oral microbiome may affect in neuropsychiatric disorders. Figure copied from \cite{tao_relationship_2024}, pg. 3.}
-\end{figure*}
+\end{figure*}\label{mouth}
 \bibliographystyle{naturemag}
 \bibliography{../references/goswami-proposal.bib}
 \end{multicols}
